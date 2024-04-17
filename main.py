@@ -1,16 +1,20 @@
+print("")
 
+print("--------------------------")
 
 print("Welcome to the basic calculator!")
+print("Created by Mon Andrei Obillo")
+print("--------------------------")
 print("")
 
 while True:
-    print("Please enter your first value:")
+    print("Input your first value:")
     n1 = float(input())
-    print("Please enter your second value:")
+    print("Input your second value:")
     n2 = float(input())
     print("")
 
-    print("Please enter the operation needed:")
+    print("Choose the operation:")
     print(
         """ 
         1. Add
@@ -34,8 +38,20 @@ while True:
         elif choice == 4:
             print(n1, "/", n2, "=", n1 / n2)
         
+        print("")
         next_equation = str(input("Do you want another calculation? (yes or no) "))
         if next_equation == 'no':
             break
+        elif next_equation == 'yes':
+            True
+        else:
+            print('"yes or no only!" - creator')
+            print("")
     else:
         print("Invalid input, please try again.")
+
+print("")
+print("--------------------------")
+print("Thank you for using the basic calculator")
+print("--------------------------")
+print("")
