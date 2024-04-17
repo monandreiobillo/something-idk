@@ -53,5 +53,7 @@ while True:
 print("")
 print("--------------------------")
 print("Thank you for using the basic calculator")
+print("Credits to: Mon Andrei Obillo")
+print("Copyright 2024")
 print("--------------------------")
 print("")
