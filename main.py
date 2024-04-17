@@ -1,1 +1,41 @@
-print("Hello World!")
+
+
+print("Welcome to the basic calculator!")
+print("")
+
+while True:
+    print("Please enter your first value:")
+    n1 = float(input())
+    print("Please enter your second value:")
+    n2 = float(input())
+    print("")
+
+    print("Please enter the operation needed:")
+    print(
+        """ 
+        1. Add
+        2. Subtract
+        3. Multiply
+        4. Divide
+        """
+    )
+    print("")
+    choice = int(input("Operation: "))
+
+    if choice in (1, 2, 3, 4):
+        print("The answer is:")
+    
+        if choice == 1:
+            print(n1, "+", n2, "=", n1 + n2)
+        elif choice == 2:
+            print(n1, "-", n2, "=", n1 - n2)
+        elif choice == 3:
+            print(n1, "x", n2, "=", n1 * n2)
+        elif choice == 4:
+            print(n1, "/", n2, "=", n1 / n2)
+        
+        next_equation = str(input("Do you want another calculation? (yes or no) "))
+        if next_equation == 'no':
+            break
+    else:
+        print("Invalid input, please try again.")
