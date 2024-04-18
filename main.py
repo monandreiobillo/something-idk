@@ -1,7 +1,5 @@
 print("")
-
 print("--------------------------")
-
 print("Welcome to the basic calculator!")
 print("Created by Mon Andrei Obillo")
 print("--------------------------")
