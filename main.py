@@ -1,7 +1,5 @@
 print("")
-
 print("--------------------------")
-
 print("Welcome to the basic calculator!")
 print("Created by Mon Andrei Obillo")
 print("--------------------------")
@@ -56,5 +54,9 @@ print("Thank you for using the basic calculator")
 print("Credits to: Mon Andrei Obillo")
 print("Copyright 2024")
 print("--------------------------")
+<<<<<<< HEAD
 print("Good Bye!")
 print("")
+=======
+print("")
+>>>>>>> origin/main
